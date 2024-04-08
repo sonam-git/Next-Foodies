@@ -13,6 +13,7 @@ const ImagePicker = ({ label, name }) => {
 
 const file = event.target.files[0];
 if(!file){
+    setPickImage(null);
     return;
 }
 const fileReader = new FileReader();
@@ -46,6 +47,7 @@ fileReader.readAsDataURL(file);
           name={name}
           ref={imageInput}
           onChange={handleImageChange}
+          required
         />
         <button
           className={classes.button}
