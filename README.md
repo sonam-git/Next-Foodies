@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next Foodie 🍽️
 
-## Getting Started
+Next Foodie is a web application where users can explore different types of food and add their favorite dishes to share with others. Built with **Next.js**, this app provides a seamless user experience with fast navigation and dynamic content.
 
-First, run the development server:
+## 🚀 Live Demo  
+[Next Foodie - Explore Now!](https://next-foodies-beryl.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Technologies Used
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### Frontend & Framework
+- **Next.js** (v14.1.0) – for server-side rendering and static site generation
+- **React** (v18) – for building interactive user interfaces
+- **React DOM** (v18) – for rendering React components
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Backend & Database
+- **Better-SQLite3** (v9.4.5) – for fast, simple, and efficient SQL database management
 
-## Learn More
+### Utility Libraries
+- **Slugify** (v1.6.6) – for generating URL-friendly strings
+- **XSS** (v1.0.15) – for protection against cross-site scripting attacks
 
-To learn more about Next.js, take a look at the following resources:
+### Development Tools
+- **ESLint** (v8) – for maintaining code quality and consistency
+- **ESLint Config Next** (v14.1.0) – for Next.js-specific linting rules
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## ✨ Features
+- **Explore Various Foods**: Browse through a wide range of dishes from different cuisines.
+- **Add Your Favorites**: Share your favorite foods by adding them to the platform.
+- **Dynamic Experience**: Fast and responsive interface powered by Next.js.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📦 Installation & Setup
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-repo/next-foodie.git
+   cd next-foodie
+2. npm install
+3. npm run dev
+
+
+   
+
